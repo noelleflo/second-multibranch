@@ -11,6 +11,7 @@ pipeline{
         stage('sub-job1'){
           steps{
             echo 'action1'
+            echo 'enter'
           }
         }
         stage('sub-job2'){
